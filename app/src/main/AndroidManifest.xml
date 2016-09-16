@@ -18,9 +18,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Profile" />
-        <activity android:name=".Contact" />
-        <activity android:name=".Home"></activity>
+        <activity
+            android:name=".Profile"
+            android:label="Profie" />
+        <activity
+            android:name=".Contact"
+            android:label="Contact" />
+        <activity
+            android:name=".Home"
+            android:label="Home" />
     </application>
 
 </manifest>
